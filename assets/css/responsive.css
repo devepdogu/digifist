@@ -69,7 +69,7 @@
 
 @media screen and (min-width:769px) and (max-width:1024px) {
     :root {
-        --layoutBlock: 40px;
+        --layoutBlock: 30px;
         --layoutInline: 30px;
     }
 
@@ -84,7 +84,8 @@
 
 @media screen and (min-width:1025px) and (max-width:1299px) {
     :root {
-        --layoutInline: 60px;
+        --layoutBlock: 50px;
+        --layoutInline: 50px;
     }
 
     .page--app-main>.page--app-section .page--app-heading .heading--title {
