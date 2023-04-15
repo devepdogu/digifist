@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
     :root {
         --product-width: 148px;
         --product-thumbnail-height: 200px;
@@ -64,5 +64,46 @@
 
     .d-none-xs {
         display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    :root {
+        --layoutBlock: 40px;
+        --layoutInline: 30px;
+    }
+
+    .page--app-main>.page--app-section .page--app-heading .heading--title {
+        width: 90%;
+    }
+
+    .page--app-main>.page--app-section .page--app-heading>.heading--sub-title {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1299px) {
+    :root {
+        --layoutInline: 60px;
+    }
+
+    .page--app-main>.page--app-section .page--app-heading .heading--title {
+        width: 90%;
+    }
+
+    .page--app-main>.page--app-section .page--app-heading>.heading--sub-title {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1600px) {
+
+
+    .page--app-main>.page--app-section .page--app-heading .heading--title {
+        width: 90%;
+    }
+
+    .page--app-main>.page--app-section .page--app-heading>.heading--sub-title {
+        width: 80%;
     }
 }
