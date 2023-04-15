@@ -1,0 +1,144 @@
+:root {
+    --bg-color: white;
+    --layoutBlock: 96px;
+    --layoutInline: 120px;
+
+    --product-width: 230px;
+    --product-thumbnail-height:310px;
+    --product-color-aqua: #99C3CC;
+    --product-color-red: #CC9999;
+    --product-color-purple: #CB99CC;
+    --product-color-green: #A6CC99;
+}
+
+
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: Avgr;
+    src: url("./../fonts/avgr/avgr_medium.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Avgr;
+    src: url("./../fonts/avgr/avgr_bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url('./../fonts/avenir/AvenirLTStd-Black.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url('./../fonts/avenir/AvenirLTStd-Book.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url('./../fonts/avenir/AvenirLTStd-Roman.otf');
+    font-weight: 500;
+}
+
+/* FONTS */
+
+
+
+
+
+/* VARIABLES */
+
+.color-aqua {
+    background-color: var(--product-color-aqua) !important;
+}
+
+.color-red {
+    background-color: var(--product-color-red) !important;
+}
+
+.color-purple {
+    background-color: var(--product-color-purple) !important;
+}
+
+.color-green {
+    background-color: var(--product-color-green) !important;
+}
+
+.text--heading {
+    font-family: Avgr !important;
+}
+
+.text--normal {
+    font-family: Avenir !important;
+
+}
+
+.text--small {
+    font-size: 12.8px;
+    line-height: 20px;
+}
+
+/* VARIABLES */
+
+
+
+
+
+/* SWIPER */
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 16px !important;
+    color: #000000
+}
+
+
+.swiper {
+    width: 0px;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+/* SWIPER */
+
+
+
+
+
+
+/* NORMALIZE */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
+
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+/* NORMALIZE */

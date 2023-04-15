@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <main class="page--app-main">
+       <div class="page--app-bg">
+         <img src="./assets/images/bg.png" alt="BG"></div>
+       <div class="page--app-section">
+        <div class="page--app-heading">
+            <h1 class="text--heading heading--title">Everyday items, we have something to suit every occasion.</h1>
+            <p class="heading--sub-title d-none-xs">At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.</p>
+            <a class="text--small heading--discover" href="#">Shop all everyday items</a>
+        </div>
+         <div class="page--app-products">
+            <div class="page--app-products-items swiper">
+                <div class="page--app-products-wrapper swiper-wrapper">
+                    Yükleniyor...
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+         </div>
+       </div>
+    </main>
+    <template id="product-template">
+        <div class="page--app-products-item swiper-slide">
+            <img class="product-thumbnail" src="./assets/images/products/THUMBNAILMOCK.png" alt="Green sweatshirt">
+            <p class="product-name text--small">{{name}}</p>
+            <div class="product-price-colors">
+                <p class="product-price text--small">{{price}}</p>
+                <div class="product-colors">
+                </div>
+            </div>
+          </div>
+    </template>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
